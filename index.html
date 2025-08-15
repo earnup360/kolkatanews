@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> আজকে যা ঘটলো তা দেখার মত  </title>
+    <title>আজকে যা ঘটলো তা দেখার মত</title>
     <style>
         * {
             margin: 0;
@@ -15,6 +15,12 @@
         body {
             background-color: #f0f2f5;
             color: #1c1e21;
+        }
+        
+        .header-ad {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
         }
         
         .container {
@@ -78,6 +84,10 @@
             background-color: #f0f2f5;
             border-radius: 8px;
             text-align: center;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .footer {
@@ -110,6 +120,10 @@
         
         .social-bar {
             margin: 20px 0;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .warning {
@@ -132,6 +146,23 @@
     </style>
 </head>
 <body>
+    <!-- Header Banner Ad -->
+    <div class="header-ad">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'b4017304f3499a8e1c4241be51784ba1',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/b4017304f3499a8e1c4241be51784ba1/invoke.js"></script>
+    </div>
+    
+    <!-- Native Banner Ad -->
+    <script async="async" data-cfasync="false" src="//pl27423823.profitableratecpm.com/6a7f5da2d0194a5347251f2799d937dc/invoke.js"></script>
+    
     <div class="container">
         <div class="profile-header">
             <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/290774112_438366798150980_6217083085855789535_n2022072101063620220721011722.jpg" alt="Profile" class="profile-pic">
@@ -146,12 +177,12 @@
         <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/290774112_438366798150980_6217083085855789535_n2022072101063620220721011722.jpg" alt="Adult Content" class="main-image pulse">
         
         <div class="ad-container">
-            <script async="async" data-cfasync="false" src="//pl27290206.profitableratecpm.com/77bc65c29a7c33912129862d674bd031/invoke.js"></script>
-            <div id="container-77bc65c29a7c33912129862d674bd031"></div>
+            <div id="container-6a7f5da2d0194a5347251f2799d937dc"></div>
         </div>
         
+        <!-- Social Bar Ad -->
         <div class="social-bar">
-            <script type='text/javascript' src='//pl27290968.profitableratecpm.com/41/7a/07/417a07a63a6728007513881583fdf096.js'></script>
+            <script type='text/javascript' src='//pl27423852.profitableratecpm.com/18/55/5e/18555e5f7b925f43c6c86d4311ac6986.js'></script>
         </div>
         
         <div class="footer" id="footer">
@@ -163,6 +194,9 @@
             You must be 18+ to view this content. By clicking the link you agree to our Terms and Conditions.
         </div>
     </div>
+
+    <!-- Pop Under Ad (placed at bottom of body) -->
+    <script type='text/javascript' src='//pl27423855.profitableratecpm.com/ad/eb/ff/adebff46c9b2dd16e2e56fe2983ad0f0.js'></script>
 
     <script>
         // Countdown timer
@@ -179,13 +213,15 @@
                 clearInterval(countdown);
                 timerElement.style.display = 'none';
                 openLinkElement.style.display = 'block';
+                // Automatically redirect after countdown
+                window.location.href = 'https://kolkatanewsto.blogspot.com/';
             }
         }, 1000);
         
         // Redirect when clicked
         footerElement.addEventListener('click', () => {
             if (timeLeft <= 0) {
-                window.location.href = 'https://kolkatapotidin.blogspot.com/';
+                window.location.href = 'https://kolkatanewsto.blogspot.com/';
             }
         });
         
